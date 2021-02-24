@@ -11,8 +11,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
-  skip: true  # [win or osx or py<38]
+  number: 1
+  skip: true  # [py<38]
   run_exports:
     - {{ pin_subpackage("ledger") }}
 
