@@ -1,0 +1,30 @@
+boost:
+- 1.74.0
+channel_sources:
+- conda-forge,defaults
+channel_targets:
+- conda-forge main
+cxx_compiler:
+- vs2017
+gmp:
+- '6'
+graphviz:
+- '2.38'
+mpfr:
+- '4'
+pin_run_as_build:
+  boost:
+    max_pin: x.x.x
+  gmp:
+    max_pin: x
+  graphviz:
+    max_pin: x
+  mpfr:
+    max_pin: x
+  python:
+    min_pin: x.x
+    max_pin: x.x
+python:
+- 3.8.* *_cpython
+target_platform:
+- win-64
