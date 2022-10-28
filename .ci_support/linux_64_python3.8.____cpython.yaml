@@ -1,5 +1,5 @@
 boost:
-- 1.74.0
+- 1.78.0
 cdt_name:
 - cos6
 channel_sources:
@@ -15,17 +15,13 @@ docker_image:
 gmp:
 - '6'
 graphviz:
-- '3'
+- '6'
 mpfr:
 - '4'
 pin_run_as_build:
   boost:
     max_pin: x.x.x
-  gmp:
-    max_pin: x
   graphviz:
-    max_pin: x
-  mpfr:
     max_pin: x
   python:
     min_pin: x.x
