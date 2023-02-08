@@ -1,6 +1,6 @@
 {% set name = "ledger" %}
-{% set version = "3.2.1" %}
-{% set sha256 = "92bf09bc385b171987f456fe3ee9fa998ed5e40b97b3acdd562b663aa364384a" %}
+{% set version = "3.3.0" %}
+{% set sha256 = "42307121666b5195a122857ec572e554b77ecf6b12c53e716756c9dae20dc7c1" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win or osx or py<38]
   run_exports:
     - {{ pin_subpackage("ledger") }}
