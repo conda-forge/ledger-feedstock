@@ -9,13 +9,13 @@ channel_targets:
 cxx_compiler:
 - gxx
 cxx_compiler_version:
-- '11'
+- '12'
 docker_image:
 - quay.io/condaforge/linux-anvil-cos7-x86_64
 gmp:
 - '6'
 graphviz:
-- '6'
+- '8'
 mpfr:
 - '4'
 pin_run_as_build:
