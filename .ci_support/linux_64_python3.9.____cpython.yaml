@@ -1,5 +1,3 @@
-boost:
-- 1.78.0
 cdt_name:
 - cos6
 channel_sources:
@@ -16,11 +14,11 @@ gmp:
 - '6'
 graphviz:
 - '9'
+libboost_python_devel:
+- '1.82'
 mpfr:
 - '4'
 pin_run_as_build:
-  boost:
-    max_pin: x.x.x
   graphviz:
     max_pin: x
   python:

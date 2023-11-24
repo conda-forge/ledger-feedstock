@@ -22,7 +22,7 @@ requirements:
     - cmake
     - make
   host:
-    - boost
+    - libboost-python-devel
     - gmp
     - mpfr
     - utfcpp
@@ -33,7 +33,6 @@ requirements:
     - graphviz # docs
     - texinfo # docs
   run:
-    - boost
     - gmp
     - mpfr
     - utfcpp
