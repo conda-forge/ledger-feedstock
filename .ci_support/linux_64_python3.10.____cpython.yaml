@@ -17,7 +17,7 @@ docker_image:
 gmp:
 - '6'
 graphviz:
-- '9'
+- '11'
 libboost_devel:
 - '1.84'
 libboost_python_devel:
