@@ -19,14 +19,12 @@ gmp:
 graphviz:
 - '12'
 libboost_devel:
-- '1.84'
+- '1.86'
 libboost_python_devel:
-- '1.84'
+- '1.86'
 mpfr:
 - '4'
 pin_run_as_build:
-  graphviz:
-    max_pin: x
   python:
     min_pin: x.x
     max_pin: x.x
