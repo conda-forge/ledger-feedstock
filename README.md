@@ -193,5 +193,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@thatisapseudo](https://github.com/thatisapseudo/)
+* [@h-vetinari](https://github.com/h-vetinari/)
 
