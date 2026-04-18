@@ -1,14 +1,12 @@
-{% set name = "ledger" %}
 {% set version = "3.4.1" %}
-{% set sha256 = "1cf012cdc8445cab0efc445064ef9b2d3f46ed0165dae803c40fe3d2b23fdaad" %}
 
 package:
-  name: {{ name|lower }}
+  name: ledger
   version: {{ version }}
 
 source:
   url: https://github.com/ledger/ledger/archive/v{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: 1cf012cdc8445cab0efc445064ef9b2d3f46ed0165dae803c40fe3d2b23fdaad
 
 build:
   number: 1
