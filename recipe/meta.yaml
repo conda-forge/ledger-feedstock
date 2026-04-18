@@ -1,6 +1,6 @@
 {% set name = "ledger" %}
-{% set version = "3.3.2" %}
-{% set sha256 = "555296ee1e870ff04e2356676977dcf55ebab5ad79126667bc56464cb1142035" %}
+{% set version = "3.4.1" %}
+{% set sha256 = "1cf012cdc8445cab0efc445064ef9b2d3f46ed0165dae803c40fe3d2b23fdaad" %}
 
 package:
   name: {{ name|lower }}
@@ -11,8 +11,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 5
-  skip: true  # [win or osx or py<38]
+  number: 0
+  skip: true  # [win or osx]
   run_exports:
     - {{ pin_subpackage("ledger") }}
 
@@ -62,4 +62,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - thatisapseudo
+    - h-vetinari
