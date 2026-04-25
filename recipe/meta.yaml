@@ -9,7 +9,7 @@ source:
   sha256: 1cf012cdc8445cab0efc445064ef9b2d3f46ed0165dae803c40fe3d2b23fdaad
 
 build:
-  number: 1
+  number: 2
   skip: true  # [win or osx]
   run_exports:
     - {{ pin_subpackage("ledger") }}

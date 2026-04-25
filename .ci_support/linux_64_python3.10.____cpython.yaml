@@ -17,9 +17,9 @@ gmp:
 graphviz:
 - '14'
 libboost_devel:
-- '1.88'
+- '1.90'
 libboost_python_devel:
-- '1.88'
+- '1.90'
 mpfr:
 - '4'
 pin_run_as_build:
